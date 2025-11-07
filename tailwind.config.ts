@@ -57,6 +57,26 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        urgent: {
+          DEFAULT: "hsl(var(--urgent))",
+          foreground: "hsl(var(--urgent-foreground))",
+        },
+        promotional: {
+          DEFAULT: "hsl(var(--promotional))",
+          foreground: "hsl(var(--promotional-foreground))",
+        },
+        personal: {
+          DEFAULT: "hsl(var(--personal))",
+          foreground: "hsl(var(--personal-foreground))",
+        },
+        work: {
+          DEFAULT: "hsl(var(--work))",
+          foreground: "hsl(var(--work-foreground))",
+        },
+        spam: {
+          DEFAULT: "hsl(var(--spam))",
+          foreground: "hsl(var(--spam-foreground))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
